@@ -7,8 +7,19 @@ body {
     margin: 0 auto;
     background-color: #fff;
 }
+header img {
+    display: inline;
+    padding-top: 30px;
+    padding-left: 300px;
 
-header,
+}
+header {
+    width:960px;
+    border-bottom: 2px solid;
+    border-bottom-height: 100%;
+    border-color: #222;
+
+}
 footer,
 article {
 
@@ -16,6 +27,12 @@ article {
     margin: 15px;
     display: inline-block;
 
+}
+
+
+
+article img {
+    width:250px;
 }
 
 aside {
@@ -26,18 +43,19 @@ aside {
 }
 
 h1 {
-    font-size: 48px;
+    font-size: 40px;
     margin: 20px;
     padding: 20px;
-    border: 1px solid #222;
 }
 
 h2 {
-    font-size: 32px;
+    font-size: 28px;
+    font-weight: normal;
 
 }
 
-h3 {
+.titles {
+
 
 }
 
@@ -46,21 +64,26 @@ p {
     font-weight: normal;
     margin: 0px;
     line-height: 1.5;
+    width: 630px;
 
 }
 
-img {
-    width: 50%;
-    padding-left: 350px;
+.main {
+    width: 100%;
+    padding-left: 20px;
+    margin-top: 50px;
 }
 
+.fact-box {
+    width: 250px;
+    padding: 10px;
+}
 a {
 
 }
 
 section {
-    border-top: 10px dashed deepskyblue;
-    text-align: center;
+
 }
 
 section article {
@@ -82,11 +105,9 @@ section article img {
 }
 
 footer {
-    background-color: fff;
+    background-color: #dddddd;
     height: 200px;
     /*opacity: 0.1;*/
     padding-top: 50px;
-    border-style: solid;
-    border-color: red;
-    border-width: 2em;
+
 }
