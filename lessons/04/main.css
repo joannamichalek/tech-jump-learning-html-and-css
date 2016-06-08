@@ -16,23 +16,27 @@ header img {
 header {
     width:960px;
     border-bottom: 2px solid;
-    border-bottom-height: 100%;
     border-color: #222;
 
 }
 footer,
 article {
-
-    width: 630px;
+    width: 620px;
     margin: 15px;
     display: inline-block;
+    vertical-align: top;
 
 }
-
-
-
 article img {
     width:250px;
+}
+
+.line {
+    height: 5px;
+    background-color: #222;
+    width: 50px;
+    margin: 0 auto;
+
 }
 
 aside {
@@ -40,7 +44,10 @@ aside {
     margin: 15px;
     display: inline-block;
     background-color: #dddddd;
+    vertical-align: top;
+    font-family: sans-serif;
 }
+
 
 h1 {
     font-size: 40px;
@@ -51,15 +58,15 @@ h1 {
 h2 {
     font-size: 28px;
     font-weight: normal;
+    text-align: center;
 
 }
 
 .titles {
 
-
 }
 
-p {
+.main_article p  {
     font-family: Georgia;
     font-weight: normal;
     margin: 0px;
@@ -90,18 +97,28 @@ section article {
     dispaly: inline-block;
     background-color: #cccccc;
     width: 270px;
+    height: 400px;
     margin: 5px;
     text-align: justify;
+    border-bottom: 1px #222 solid;
+}
+
+section article p {
+
+    padding: 20px;
 }
 
 section article img {
-    width: 150px;
+    width: 270px;
 }
 
 .titles {
     text-align: center;
     font-family: Georgia;
     font-weight: bold;
+}
+section article h3 {
+    margin-left: 20px;
 }
 
 footer {
