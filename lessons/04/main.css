@@ -6,6 +6,7 @@ body {
     width: 960px;
     margin: 0 auto;
     background-color: #fff;
+    font-size: 100%;
 }
 header img {
     display: inline;
@@ -51,12 +52,14 @@ aside {
 
 h1 {
     font-size: 40px;
+    font-size: 2.4em;
     margin: 20px;
     padding: 20px;
 }
 
 h2 {
     font-size: 28px;
+    font-size: 1.5em;
     font-weight: normal;
     text-align: center;
 
@@ -64,6 +67,18 @@ h2 {
 
 .titles {
 
+}
+.special {
+    font-size: 2em;
+}
+.special:before,
+.special:after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 100px;
+    background: red;
+    border-radius: 100%;
 }
 
 .main_article p  {
@@ -74,6 +89,8 @@ h2 {
     width: 630px;
 
 }
+
+p:before
 
 .main {
     width: 100%;
@@ -89,18 +106,33 @@ a {
 
 }
 
+p {
+    text-indent: 30px;
+}
+p:first-line {
+    font-weight: bold;
+    background: #0f0;
+}
+p:nth-child(2) {
+    background: red;
+}
+
 section {
 
+    _text-align: center;
+    font-size: 0;
 }
 
 section article {
-    dispaly: inline-block;
+
     background-color: #cccccc;
     width: 270px;
     height: 400px;
-    margin: 5px;
+    margin: 0px;
     text-align: justify;
     border-bottom: 1px #222 solid;
+    _letter-spacing: 0px;
+    font-size: 16px;
 }
 
 section article p {
@@ -127,4 +159,8 @@ footer {
     /*opacity: 0.1;*/
     padding-top: 50px;
 
+}
+
+ul li {
+    font-size: .75em;
 }
