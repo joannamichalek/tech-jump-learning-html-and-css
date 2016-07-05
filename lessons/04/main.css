@@ -1,166 +1,70 @@
-html {
-    background-color: #eeeeee;
-}
-
 body {
-    width: 960px;
-    margin: 0 auto;
-    background-color: #fff;
-    font-size: 100%;
+    /*width: 960px;*/
+    padding: 10px 0;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    /*background: #444;*/
 }
-header img {
-    display: inline;
-    padding-top: 30px;
-    padding-left: 300px;
 
-}
 header {
-    width:960px;
-    border-bottom: 2px solid;
-    border-color: #222;
-
-}
-footer,
-article {
-    width: 620px;
-    margin: 15px;
-    display: inline-block;
-    vertical-align: top;
-
-}
-article img {
-    width:250px;
-}
-
-.line {
-    height: 5px;
-    background-color: #222;
-    width: 50px;
-    margin: 0 auto;
-
-}
-
-aside {
-    width: 270px;
-    margin: 15px;
-    display: inline-block;
-    background-color: #dddddd;
-    vertical-align: top;
-    font-family: sans-serif;
-}
-
-
-h1 {
-    font-size: 40px;
-    font-size: 2.4em;
-    margin: 20px;
-    padding: 20px;
-}
-
-h2 {
-    font-size: 28px;
-    font-size: 1.5em;
-    font-weight: normal;
     text-align: center;
-
+    width: 960px;
+    margin: auto;
 }
 
-.titles {
+ul {
+    width: 750px;
+    margin: auto;
+}
+ul li {
+    display: inline-block;
+    padding:10px 0px;
+    margin: 5px;
+    width: 130px;
+    color: #111;
+    border-radius:5px;
+    text-decoration: none;
+}
+article {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
 
 }
-.special {
-    font-size: 2em;
+.news {
+    width: 960px;
+    margin: auto;
 }
-.special:before,
-.special:after {
-    content: "";
-    display: block;
-    width: 100px;
-    height: 100px;
-    background: red;
-    border-radius: 100%;
-}
-
-.main_article p  {
-    font-family: Georgia;
-    font-weight: normal;
-    margin: 0px;
-    line-height: 1.5;
-    width: 630px;
-
-}
-
-p:before
-
 .main {
-    width: 100%;
-    padding-left: 20px;
-    margin-top: 50px;
+    width: 480px;
+    height: auto;
+}
+.gallery {
+    width: 960px;
+    background-color: #fff;
+    opacity: 0.8;
+    margin: auto;
+    text-align: center;
 }
 
-.fact-box {
-    width: 250px;
-    padding: 10px;
+.gallery img {
+    width: 180px;
+    height: 180px;
+    opacity: 1;
+    border-radius: 5px;
 }
-a {
+
+
+.gal {
+    background-image: url("img/bg-pattern.jpg");
 
 }
 
 p {
-    text-indent: 30px;
-}
-p:first-line {
-    font-weight: bold;
-    background: #0f0;
-}
-p:nth-child(2) {
-    background: red;
-}
-
-section {
-
-    _text-align: center;
-    font-size: 0;
-}
-
-section article {
-
-    background-color: #cccccc;
-    width: 270px;
-    height: 400px;
-    margin: 0px;
-    text-align: justify;
-    border-bottom: 1px #222 solid;
-    _letter-spacing: 0px;
-    font-size: 16px;
-}
-
-section article p {
-
-    padding: 20px;
-}
-
-section article img {
-    width: 270px;
-}
-
-.titles {
-    text-align: center;
-    font-family: Georgia;
-    font-weight: bold;
-}
-section article h3 {
-    margin-left: 20px;
-}
-
-footer {
-    background-color: #dddddd;
-    height: 200px;
-    /*opacity: 0.1;*/
-    padding-top: 50px;
 
 }
 
-ul li {
-    font-size: .75em;
-}
+kolor buttonow #ddd;
+hover po najechaniu #ccc
+nie maja podkreslenia text decoration
+lista ma gradient od białego do eee do białego
