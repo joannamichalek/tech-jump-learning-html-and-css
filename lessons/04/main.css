@@ -10,6 +10,35 @@ header {
     text-align: center;
     width: 960px;
     margin: auto;
+    border-bottom: 1px solid #dddddd;
+}
+
+
+nav {
+    background: linear-gradient(to right, rgba(254,254,254,1) 0%, rgba(226,226,226,1) 52%, rgba(254,254,254,1) 100%);
+    margin-top: 20px;
+    margin-bottom: 50px;
+    float: none;
+}
+.hero_image {
+    width: 960px;
+    margin: auto;
+    display: block;
+}
+
+.hero_image2 {
+    width: 720px;
+    margin: auto;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: #222;
+}
+
+a:hover {
+    color: red;
 }
 
 ul {
@@ -21,50 +50,87 @@ ul li {
     padding:10px 0px;
     margin: 5px;
     width: 130px;
-    color: #111;
+    background-color: yellow;
     border-radius:5px;
     text-decoration: none;
 }
-article {
-    display: inline-block;
-    width: 50%;
-    vertical-align: top;
 
+ul li:hover{
+    cursor:pointer;
 }
-.news {
-    width: 960px;
-    margin: auto;
+
+.logo {
+    display: block;
 }
-.main {
-    width: 480px;
-    height: auto;
-}
-.gallery {
-    width: 960px;
-    background-color: #fff;
-    opacity: 0.8;
-    margin: auto;
+
+.subtitle {
     text-align: center;
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 25px;
+    line-height: 1.5;
+    width: 800px;
+    margin: auto;
+}
+
+.left {
+    float: right;
+    width: 200px;
+}
+
+.right {
+    float: left;
+    width: 200px;
+    border: solid 10px #cccccc;
+    margin: 5px;
+}
+article {
+    width: 960px;
+    margin: auto;
 }
 
 .gallery img {
-    width: 180px;
-    height: 180px;
-    opacity: 1;
-    border-radius: 5px;
+    display: inline-block;
+    width: 17%;
+    height:150px;
+    margin: 1.25%;
 }
 
-
-.gal {
-    background-image: url("img/bg-pattern.jpg");
-
-}
-
-p {
+.gallery {
+    background-color: #FFBFC0;
+    border-top: 5px solid #FF6C73;
 
 }
+.description {
+    padding: 15px;
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 12px;
+}
 
-kolor buttonow #ddd;
-hover po najechaniu #ccc
-nie maja podkreslenia text decoration
-lista ma gradient od białego do eee do białego
+.bottom_article {
+    width: 960px;
+    margin: auto;
+}
+.text {
+    display: inline-block;
+    width: 66%;
+}
+.gallery2 {
+    background-color: #A9F7CC;
+    border-right: 3px solid #333;
+    width: 33%;
+    display: inline-block;
+    vertical-align: top;
+
+}
+.gallery2 img {
+    padding: 3%;
+    width: 43%;
+    height:100px;
+}
+
+.summary {
+    width:960px;
+    margin: auto;
+}
