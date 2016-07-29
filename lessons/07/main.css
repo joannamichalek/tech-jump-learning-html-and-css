@@ -23,11 +23,191 @@ sup {
 
 table {
     margin: 50px auto;
+    border-collapse: collapse;
+}
+.basic {
+    padding: 5px;
+    border: 1px solid #444444;
+    width: 700px;
+}
+.basic th {
+    border: 1px solid #444444;
+    padding: 10px 15px;
+    text-align: left;
+}
+.basic td {
+    border: 1px solid #444444;
+    padding: 10px 15px;
 }
 
-td {
-    padding: 5px
+
+
+.with_headers{
+    padding: 5px;
+    border: 1px solid #444444;
+    width: 700px;
 }
+.with_headers th{
+    padding: 10px 15px;
+}
+.with_headers td{
+    border-bottom: 1px solid #444444;
+    padding: 10px 15px;
+}
+
+.with_headers thead {
+    background-color: #d4d4d4;
+}
+
+.data {
+    text-align: right;
+}
+.fruit {
+    text-align: left;
+}
+
+.striped_rows{
+    padding: 5px;
+    border: 1px solid #444444;
+    width: 700px;
+}
+.striped_rows th{
+    padding: 10px 15px;
+    text-align: right;
+}
+.striped_rows td{
+    padding: 10px 15px;
+    text-align: right;
+}
+.striped_rows thead  {
+    background-color: #333;
+    color: #ffffff;
+    padding: 10px 15px;
+}
+.striped_rows tr:nth-child(even)
+{
+    background-color: #cccccc;
+}
+.fruit {
+    text-align: left;
+}
+
+/* striped_cols */
+.striped_cols{
+    padding: 5px;
+    border: 1px solid #444444;
+    width: 700px;
+}
+.striped_cols th{
+    padding: 10px 15px;
+}
+.striped_cols td{
+    padding: 10px 15px;
+}
+
+.striped_cols thead {
+    background-color: #d4d4d4;
+    border: 1px solid #444444;
+    text-align: left;
+}
+.data1 {
+    background-color: #cacaca;
+}
+
+.data2 {
+    background-color: #9c9c9c;
+}
+.data3 {
+    background-color: #8a8a8a;
+}
+
+/* bordered_rows */
+caption {
+    background-color: #ebebeb;
+    padding: 10px 15px;
+}
+
+.bordered_rows{
+    padding: 5px;
+    width: 700px;
+}
+.bordered_rows th{
+    padding: 10px 15px;
+    border-bottom: 1px solid #888888;
+}
+.bordered_rows td{
+    padding: 10px 15px;
+    border-bottom: 1px solid #888888;
+}
+
+.bordered_rows thead {
+    background-color: #d4d4d4;
+    text-align: left;
+}
+
+
+/* colored_rows */
+caption {
+    background-color: #ebebeb;
+    padding: 10px 15px;
+}
+
+.colored_rows{
+    padding: 5px;
+    width: 700px;
+}
+.colored_rows th{
+    padding: 10px 15px;
+}
+.colored_rows td {
+    padding: 10px 15px;
+}
+
+.colored_rows thead {
+    background-color: #d4d4d4;
+    text-align: left;
+}
+.cyan {
+    background-color: #24e2c1; }
+.yellow {
+    background-color: #ecf126; }
+.red {
+    background-color: #ea004a; }
+.maroon {
+    background-color: #5cacee; }
+.green {
+    background-color: #5cd547; }
+.orange {
+    background-color: #f5c336; }
+
+
+/* joined_rows */
+caption {
+    background-color: #ebebeb;
+    padding: 10px 15px;
+}
+
+.joined{
+    padding: 5px;
+    width: 700px;
+}
+.joined th{
+    padding: 10px 15px;
+}
+.joined td {
+    padding: 10px 15px;
+}
+
+.joined thead {
+    background-color: #d4d4d4;
+    text-align: left;
+}
+
+
+
+
+
+
 /* footer */
 #footer {
     font-family: sans-serif;

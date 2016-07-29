@@ -9,10 +9,10 @@
         <h1>Basic Table</h1>
         <table class="basic">
             <tr>
-                <td>Products</td>
-                <td>Alma</td>
-                <td>Biedronka</td>
-                <td>Lidl</td>
+                <th scope="col" >Products</th>
+                <th scope="col">Alma</th>
+                <th scope="col" >Biedronka</th>
+                <th scope="col">Lidl</th>
             </tr>
             <tr>
                 <td>Apples</td>
@@ -33,7 +33,7 @@
                 <td>9.99</td>
             </tr>
             <tr>
-                <td>Lemons</td>
+                <td>Lemons </td>
                 <td>3.99</td>
                 <td>4.99</td>
                 <td>3.99</td>
@@ -51,7 +51,7 @@
                 <td>3.99</td>
             </tr>
             <tr>
-                <td>Strawberries</td>
+                <td >Strawberries</td>
                 <td>16.99</td>
                 <td>14.99</td>
                 <td>13.99</td>
@@ -61,67 +61,176 @@
 
     <section class="">
         <h1>Basic table With Headers</h1>
-        <table class="basic">
+        <table class="with_headers">
+            <thead>
+                <th scope="col">Products</th>
+                <th scope="col">Alma</th>
+                <th scope="col" >Biedronka</th>
+                <th scope="col">Lidl</th>
+            </thead>
             <tr>
-                <td>Products</td>
-                <td>Alma</td>
-                <td>Biedronka</td>
-                <td>Lidl</td>
+                <td class="fruit">Apples</td>
+                <td class="data">1.99</td>
+                <td class="data">1.49</td>
+                <td class="data">1.99</td>
             </tr>
             <tr>
-                <td>Apples</td>
-                <td>1.99</td>
-                <td>1.49</td>
-                <td>1.99</td>
+                <td class="fruit">Bananas</td>
+                <td class="data">6.99</td>
+                <td class="data">4.49</td>
+                <td class="data">5.99</td>
             </tr>
             <tr>
-                <td>Bananas</td>
-                <td>6.99</td>
-                <td>4.49</td>
-                <td>5.99</td>
+                <td class="fruit">Cherries</td>
+                <td class="data">9.99</td>
+                <td class="data">9.99</td>
+                <td class="data">9.99</td>
             </tr>
             <tr>
-                <td>Cherries</td>
-                <td>12.99</td>
-                <td>9.99</td>
-                <td>9.99</td>
+                <td class="fruit">Lemons</td>
+                <td class="data">3.99</td>
+                <td class="data">4.99</td>
+                <td class="data">3.99</td>
             </tr>
             <tr>
-                <td>Lemons</td>
-                <td>3.99</td>
-                <td>4.99</td>
-                <td>3.99</td>
+                <td class="fruit">Oranges</td>
+                <td class="data">4.99</td>
+                <td class="data">4.49</td>
+                <td class="data">3.99</td>
             </tr>
             <tr>
-                <td>Oranges</td>
-                <td>4.99</td>
-                <td>4.49</td>
-                <td>3.99</td>
+                <td class="fruit">Pears</td>
+                <td class="data">3.99</td>
+                <td class="data">4.99</td>
+                <td class="data">3.99</td>
             </tr>
             <tr>
-                <td>Pears</td>
-                <td>3.99</td>
-                <td>4.99</td>
-                <td>3.99</td>
-            </tr>
-            <tr>
-                <td>Strawberries</td>
-                <td>16.99</td>
-                <td>14.99</td>
-                <td>13.99</td>
+                <td class="fruit">Strawberries</td>
+                <td class="data">16.99</td>
+                <td class="data">14.99</td>
+                <td class="data">13.99</td>
             </tr>
         </table>
     </section>
 
     <section class="">
         <h1>Table with striped Rows</h1>
-        <table class="basic">
+        <table class="striped_rows">
+            <thead>
+                <th scope="col">Products</th>
+                <th scope="col">Alma</th>
+                <th scope="col" >Biedronka</th>
+                <th scope="col">Lidl</th>
+            </thead>
             <tr>
-                <td>Products</td>
-                <td>Alma</td>
-                <td>Biedronka</td>
-                <td>Lidl</td>
+                <td class="fruit">Apples</td>
+                <td>1.99</td>
+                <td>1.49</td>
+                <td>1.99</td>
             </tr>
+            <tr>
+                <td class="fruit">Bananas</td>
+                <td>6.99</td>
+                <td>4.49</td>
+                <td>5.99</td>
+            </tr>
+            <tr>
+                <td class="fruit">Cherries</td>
+                <td>12.99</td>
+                <td>9.99</td>
+                <td>9.99</td>
+            </tr>
+            <tr>
+                <td class="fruit">Lemons</td>
+                <td>3.99</td>
+                <td>4.99</td>
+                <td>3.99</td>
+            </tr>
+            <tr>
+                <td class="fruit">Oranges</td>
+                <td>4.99</td>
+                <td>4.49</td>
+                <td>3.99</td>
+            </tr>
+            <tr>
+                <td class="fruit">Pears</td>
+                <td>3.99</td>
+                <td>4.99</td>
+                <td>3.99</td>
+            </tr>
+            <tr>
+                <td class="fruit">Strawberries</td>
+                <td>16.99</td>
+                <td>14.99</td>
+                <td>13.99</td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="">
+        <h1>Table with striped Cols</h1>
+        <table class="striped_cols">
+            <thead>
+                <th>Products</th>
+                <th>Alma</th>
+                <th>Biedronka</th>
+                <th>Lidl</th>
+            </thead>
+            <tr>
+                <td>Apples</td>
+                <td class="data1">1.99</td>
+                <td class="data2">1.49</td>
+                <td class="data3">1.99</td>
+            </tr>
+            <tr>
+                <td>Bananas</td>
+                <td class="data1">6.99</td>
+                <td class="data2">4.49</td>
+                <td class="data3">5.99</td>
+            </tr>
+            <tr>
+                <td>Cherries</td>
+                <td class="data1">12.99</td>
+                <td class="data2">9.99</td>
+                <td class="data3">9.99</td>
+            </tr>
+            <tr>
+                <td>Lemons</td>
+                <td class="data1">3.99</td>
+                <td class="data2">4.99</td>
+                <td class="data3">3.99</td>
+            </tr>
+            <tr>
+                <td>Oranges</td>
+                <td class="data1">4.99</td>
+                <td class="data2">4.49</td>
+                <td class="data3">3.99</td>
+            </tr>
+            <tr>
+                <td>Pears</td>
+                <td class="data1">3.99</td>
+                <td class="data2">4.99</td>
+                <td class="data3">3.99</td>
+            </tr>
+            <tr>
+                <td>Strawberries</td>
+                <td class="data1">16.99</td>
+                <td class="data2">14.99</td>
+                <td class="data3">13.99</td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="">
+        <h1>Table with Striped Bordered Rows</h1>
+        <table class="bordered_rows">
+            <caption> Table 1.Prices of fruits</caption>
+            <thead>
+                <th>Products</th>
+                <th>Alma</th>
+                <th>Biedronka</th>
+                <th>Lidl</th>
+            </thead>
             <tr>
                 <td>Apples</td>
                 <td>1.99</td>
@@ -166,53 +275,53 @@
             </tr>
         </table>
     </section>
-
     <section class="">
         <h1>Table with striped Colored Rows</h1>
-        <table class="basic">
-            <tr>
-                <td>Products</td>
-                <td>Alma</td>
-                <td>Biedronka</td>
-                <td>Lidl</td>
-            </tr>
-            <tr>
+        <table class="colored_rows">
+            <caption> Table 1.Prices of fruits</caption>
+            <thead>
+                <th>Products</th>
+                <th>Alma</th>
+                <th>Biedronka</th>
+                <th>Lidl</th>
+            </thead>
+            <tr class="green">
                 <td>Apples</td>
                 <td>1.99</td>
                 <td>1.49</td>
                 <td>1.99</td>
             </tr>
-            <tr>
+            <tr class="yellow">
                 <td>Bananas</td>
                 <td>6.99</td>
                 <td>4.49</td>
                 <td>5.99</td>
             </tr>
-            <tr>
+            <tr class="maroon">
                 <td>Cherries</td>
                 <td>12.99</td>
                 <td>9.99</td>
                 <td>9.99</td>
             </tr>
-            <tr>
+            <tr class="yellow">
                 <td>Lemons</td>
                 <td>3.99</td>
                 <td>4.99</td>
                 <td>3.99</td>
             </tr>
-            <tr>
+            <tr class="orange">
                 <td>Oranges</td>
                 <td>4.99</td>
                 <td>4.49</td>
                 <td>3.99</td>
             </tr>
-            <tr>
+            <tr class="cyan">
                 <td>Pears</td>
                 <td>3.99</td>
                 <td>4.99</td>
                 <td>3.99</td>
             </tr>
-            <tr>
+            <tr class="red">
                 <td>Strawberries</td>
                 <td>16.99</td>
                 <td>14.99</td>
@@ -223,7 +332,9 @@
 
     <section class="">
         <h1>Table with Joined Coles and Rows</h1>
-        <table class="basic">
+        <table class="joined">
+            <caption> Table 1 Fruits consumption</caption>
+            <thead></thead>
             <tr>
                 <td>Products</td>
                 <td>Alma</td>
@@ -274,7 +385,7 @@
             </tr>
         </table>
     </section>
-    
+
 
     <footer>
         <div id="footer" class="inner">
