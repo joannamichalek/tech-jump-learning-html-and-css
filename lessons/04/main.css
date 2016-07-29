@@ -26,7 +26,7 @@ nav {
     display: block;
 }
 
-.hero_image2 {
+video {
     width: 720px;
     margin: auto;
     display: block;
@@ -82,7 +82,8 @@ ul li:hover{
     float: left;
     width: 200px;
     border: solid 10px #cccccc;
-    margin: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
 article {
     width: 960px;

@@ -1,0 +1,188 @@
+body {
+    font: 100% Lucida, sans-serif;
+
+    width: 960px;
+    margin: 0 auto;
+
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+}
+h1 {
+    background: #eee;
+    border-top: 1px solid #aaa;
+    border-bottom: 1px solid #aaa;
+    padding: .5em;
+    margin: 0;
+}
+
+sup {
+    color: red;
+    font-size: 15px;
+}
+
+.log_in label {
+    display: inline-block;
+    width: 100px;
+    font-size: 18px;
+}
+
+.log_in
+{
+    display: block;
+    margin: 40px auto;
+    width: 400px;
+    height: auto;
+    padding: 20px;
+    background: #eee;
+    border-radius: 10px;
+    border: 1px solid #c2c2c2;
+}
+
+
+.log_in button{
+    background-color: cornflowerblue;
+
+    margin-left: 110px;
+    font-size: 20px;
+    border-radius: 4px;
+    border: none;
+    padding: 5px 10px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.log_in input {
+    font-size: 15px;
+    border:solid 1px #c2c2c2;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+span {
+    background-color: #fff;
+    margin: 200px 100px;
+    position:relative;
+}
+.personal_data {
+    margin: 30px auto;
+    width: 640px;
+    padding: 20px 50px;
+}
+.regiser_form input[type="text"],
+.regiser_form input[type="email"] {
+    font-size: 15px;
+    border:solid 1px #c2c2c2;
+    margin: 10px 0;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 100%;
+}
+
+.register {
+    background-color: #00c173;
+    border-radius: 3px;
+    width: 150px;
+    font-size: 18px;
+    margin: 0 180px 10px 180px;
+}
+.clear {
+    border: none;
+    display: inline-block;
+    background-color: #c1003d;
+    border-radius: 3px;
+    width: 250px;
+    height: 40px;
+    font-size: 24px;
+    margin: 10px 5px 10px 30px;
+    color: #ffffff;
+    border-top: 5px solid #ea004a;
+}
+
+.submit {
+    border: none;
+    display: inline-block;
+    background-color: #008cc1;
+    border-radius: 3px;
+    width: 250px;
+    height: 40px;
+    font-size: 24px;
+    margin: 10px 0px 10px 10px;
+    color: #ffffff;
+    border-top: 5px solid #00a5e4;
+    border-radius: 2px;
+
+}
+.submit a:hover {
+    background-color: #00678e;
+}
+
+.poll_form {
+    margin: 80px 0 20px 10px;
+}
+
+.poll_form input {
+    margin: 0 0 10px 30px;
+}
+.name {
+    width: 500px;
+    height: 50px;
+    font-size: 30px;
+}
+
+.poll_form select {
+    margin: 0 0 0 30px;
+}
+
+.radio {
+    margin: 0 0 0 30px;
+}
+.radio input {
+    margin: 10px 60px 10px 10px;
+    border-bottom: 1px solid #b4b4b4;
+    font-size: 30px;
+}
+.placeholder {
+    font-size: 30px;
+
+}
+.radio span {
+    width: 100px;
+    display: inline-block;
+    margin:0;
+}
+.line {
+    border-bottom: 1px solid #b4b4b4;
+}
+p {
+    color: #888888;
+    background-color: #ececec;
+    margin: 0 0 20px 30px;
+    padding: 10px;
+}
+.row {
+    border-bottom: 2px solid #cccccc;
+    margin: 0 0 0 30px;
+    padding: 10px;
+}
+textarea {
+    width: 500px;
+    height: 150px;
+
+}
+
+/* footer */
+#footer {
+    font-family: sans-serif;
+    height: 50px;
+    margin-top: 50px;
+    border-top: 1px solid #888;
+    color: #444;
+    padding: 1em 1em 0;
+}
+#footer span {
+    font-size: .75em;
+}
+#footer .copyright {
+    float: right;
+}

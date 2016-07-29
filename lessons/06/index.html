@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lesson 06</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+    <h1>Login Form</h1>
+        <section class="log_in">
+            <form>
+               <label for="name"> Username</label><input id="name" type="text" name="username"><br>
+               <label for="pass"> Password </label><input id="pass" type="password" name="password"><br>
+                <button name="log"> Log in </button>
+            </form>
+        </section>
+
+
+    <h1>Register Form</h1>
+    <section class="regiser_form">
+        <form class="personal_data">
+            <fieldset>
+            <legend>Personal Data</legend>
+                    <label> E-mail <sup>*</sup> </label> <br>
+                    <input type="email" name="email-address" required placeholder="write an e-mail"><br>
+                    <label> Firstname </label> <br>
+                    <input type="text"  name="firstname"> <br>
+                    <label> Lastyname </label> <br>
+                    <input type="text"  name="lastname"> <br>
+                    <h4> Gender </h4> <br>
+                    Male  <input type="radio" name="gender" value="male"> Female <input type="radio" name="gender" value="famale"> <br>
+                    <label> Birthdate </label> <br>
+                    <input type="date" name="bday" max="1979-12-31"><br>
+            </fieldset>
+            <button name="register" class="register"> Register </button>
+        </form>
+    </section>
+
+    <h1>Poll Form</h1>
+    <section class="poll_form">
+        <form>
+            <h2> 1. What is your name?</h2>
+            <p class="tip"> Be so gently and write your name at the begining of this poll.</p>
+            <input class="name" type="text" name="yourname" placeholder="your name">
+
+
+
+            <h2> 2. How long are you working in Schibsted?</h2>
+            <p class="tip"> Select option mostly related to your expirience</p>
+            <select>
+                <option>3-5 months</option>
+                <option>1 year</option>
+                <option>2 years</option>
+                <option>more than 3 years</option>
+            </select>
+
+
+            <h2> 3. How long are you working in Schibsted?</h2>
+            <p class="tip"> Select option mostly related to your expirience</p>
+            <label>
+                <input type="checkbox" name="role" value="frontend"> Frontend Developer <br>
+            </label>
+                <input type="checkbox" name="role" value="frontend"> Backend Developer <br>
+                <input type="checkbox" name="role" value="fullstack"> Fullstack Developer <br>
+                <input type="checkbox" name="role" value="designer"> Designer <br>
+                <input type="checkbox" name="role" value="tester"> Tester <br>
+                <input type="checkbox" name="role" value="leader"> Team Leader <br>
+                <input type="checkbox" name="role" value="manager"> Manager <br>
+
+
+            <div class="radio">
+                <h2> 4. How do you score Schibsted?</h2>
+                <p class="tip"> Remember, 1 is worst and 5 best score for each question. </p>
+                    <div class="line">
+                        <span> Office </span>
+                        <label>1<input type="radio" name="office" value="1"></label>
+                        <label>2<input type="radio" name="office" value="2"></label>
+                        <label>3<input type="radio" name="office" value="3"></label>
+                        <label>4<input type="radio" name="office" value="4"></label>
+                        <label>5<input type="radio" name="office" value="5"></label>
+                    </div>
+                    <div class="line">
+                        <span> People </span>1<input type="radio" name="1"> 2<input type="radio" name="2"> 3<input type="radio" name="3"> 4<input type="radio" name="4">  5<input type="radio" name="5">
+                    </div>
+                    <div class="line">
+                        <span> Projects </span>1<input type="radio" name="1"> 2<input type="radio" name="2"> 3<input type="radio" name="3"> 4<input type="radio" name="4">  5<input type="radio" name="5">
+                    </div>
+
+            <h2> 5. Do you have any comments about Tech Jump Traning?</h2>
+            <p class="tip"> Select option mostly related to your expirience</p>
+            <div class="row">
+                <textarea name="comment"> Add your comment here </textarea>
+            </div>
+             <button name="clear" class="clear"> Clear all form </button>
+            <button name="submit" class="submit"> Submit your answers </button>
+        </form>
+    </section>
+    <footer>
+        <div id="footer" class="inner">
+            <span>Tech Jump Practice</span>
+            <span class="copyright">Made in Schibsted Tech Polska &copy 2016</span>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.1.0.slim.min.js" integrity="sha256-cRpWjoSOw5KcyIOaZNo4i6fZ9tKPhYYb6i5T9RSVJG8=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
